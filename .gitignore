@@ -1,0 +1,21 @@
+# --- Python Cache Files ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual Environment ---
+.venv/
+venv/
+
+# --- Distribution / Packaging ---
+build/
+dist/
+*.egg-info/
+
+# --- IDE and Editor Files ---
+. vscode/
+.idea/
+
+# --- MacOS System Junk ---
+.DS_Store
