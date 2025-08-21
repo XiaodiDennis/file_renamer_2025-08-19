@@ -27,7 +27,7 @@ Supports **dry-run previews**, **apply mode**, and basic reporting of how many f
 ```bash
 python3 rename_zlibrary_2025-08-19.py ~/Downloads -r -p "(Z-Library)" --loose -i
 
-2. Actually rename files
+**### 2. Actually rename files**
 python3 rename_zlibrary_2025-08-19.py ~/Downloads -r -p "(Z-Library)" --loose -i --apply
 
 
@@ -39,7 +39,7 @@ python3 rename_zlibrary_2025-08-19.py ~/Downloads -r -p "(Z-Library)" --loose -i
 
 -i → ignore case
 
-📝 Example
+**## 📝 Example**
 
 If you have:
 
@@ -58,7 +58,7 @@ Running with replace mode (replace with [Clean]):
 Book Title [Clean].pdf
 Another Book [Clean].epub
 
-⚙️ Development
+**## ⚙️ Development**
 
 Clone the repo:
 
@@ -74,7 +74,7 @@ source .venv/bin/activate
 
 Run the script as shown above.
 
-📌 Notes
+**## 📌 Notes**
 
 By default, this tool runs in dry-run mode so you don’t accidentally rename files.
 
@@ -82,7 +82,7 @@ Use --apply only when you’re sure.
 
 Works on macOS, Linux, Windows with Python 3.8+.
 
-📄 License
+**## 📄 License**
 
 MIT License © 2025 XiaodiDennis
 
