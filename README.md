@@ -26,6 +26,7 @@ Supports **dry-run previews**, **apply mode**, and basic reporting of how many f
 ### 1. Run in dry-run mode (preview only)
 ```bash
 python3 rename_zlibrary_2025-08-19.py ~/Downloads -r -p "(Z-Library)" --loose -i
+```bash
 
 **### 2. Actually rename files**
 python3 rename_zlibrary_2025-08-19.py ~/Downloads -r -p "(Z-Library)" --loose -i --apply
